@@ -299,7 +299,7 @@ nav .logotype img{
     .header{
         min-height: 100vh;
         width: 100%;
-        background-image: url(bannerstart.png);
+        background-image: url(images/bannerstart.png);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -323,5 +323,40 @@ nav .logotype img{
     }
     .text-box p{
         font-size: 13px;
+    }
+}
+
+@media(width: 1920px){
+    .product-page{
+        width: 60%;
+    }
+    .window {
+        width: 250px;
+    }
+    .window h3{
+        font-size: 23px;
+    }
+    .window h4{
+        font-size: 15px;
+    }
+    .window p{
+        font-size: 20px;
+    }
+    .show-btn{
+        padding: 13px 70px;
+        font-size: 15px;
+    }
+    .text-box h3{
+        font-size: 25px;
+    }
+    
+    .text-box h1{
+        font-size: 65px;
+    }
+    .text-box p{
+        font-size: 21px;
+    }
+    .hero-btn{
+        padding: 28px 75px;
     }
 }
