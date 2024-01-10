@@ -290,16 +290,16 @@ nav .logotype img{
         display: block;
         border-radius: 0px;
         box-sizing: border-box;
-        background: #FFF3E3;
+        background-image: url(images/bannerstart.png);
         position: relative;
         left: 0%;
         align-items: center;
         top: 30%;
     }
     .header{
-        min-height: 100vh;
+        min-height: 40vh;
         width: 100%;
-        background-image: url(images/bannerstart.png);
+        background-image: none;
         background-position: center;
         background-size: cover;
         position: relative;
