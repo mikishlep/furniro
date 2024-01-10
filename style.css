@@ -328,10 +328,10 @@ nav .logotype img{
 
 @media(width: 1920px){
     .product-page{
-        width: 60%;
+        width: 70%;
     }
     .window {
-        width: 250px;
+        width: 280px;
     }
     .window h3{
         font-size: 23px;
@@ -358,5 +358,28 @@ nav .logotype img{
     }
     .hero-btn{
         padding: 28px 75px;
+    }
+    .room-col img {
+        width: 350px;
+    }
+}
+@media(max-width: 1265px){
+    .product-page{
+        width: 80%;
+    }
+    .window {
+        width: 200px;
+    }
+}
+
+@media(max-width: 1160px){
+    .product-page{
+        width: 80%;
+    }
+    .window {
+        width: 170px;
+    }
+    .room-col img {
+        width: 250px;
     }
 }
